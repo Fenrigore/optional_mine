@@ -1,0 +1,72 @@
+# ИГНОРИРУЕТ ВСЁ, КРОМЕ .cpp и .h файлов! (и самого .gitignore)
+
+# Игнорировать ВСЕ файлы по умолчанию
+*
+
+# НЕ игнорировать эти:
+!*.cpp
+!*.h
+!*.hpp
+!*.c
+!*.cc
+!*.cxx
+
+# НЕ игнорировать папки (чтобы можно было добавлять файлы внутри них)
+!*/
+
+# Особые файлы - НЕ игнорировать
+!.gitignore
+!README.md
+!LICENSE
+!CMakeLists.txt
+!Makefile
+
+# Игнорировать папки сборки (даже если они пустые)
+build/
+bin/
+obj/
+Debug/
+Release/
+x64/
+x86/
+.vs/
+.cache/
+out/
+
+# IDE и редакторы
+.vscode/
+.idea/
+*.suo
+*.user
+*.ncb
+*.sln
+*.vcxproj
+*.vcxproj.filters
+
+# Скомпилированные файлы
+*.exe
+*.out
+*.app
+*.so
+*.dll
+*.lib
+*.a
+*.o
+*.obj
+*.pdb
+*.ilk
+
+# Системные файлы
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Архивы и временные файлы
+*.zip
+*.rar
+*.7z
+*.tar
+*.gz
+*.log
+*.tmp
+*.temp
